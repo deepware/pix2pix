@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 from torchvision.utils import save_image
 import pix2pix as P
 
-device = 'cuda:1'
+device = 'cuda:0'
 
 
 G = P.GeneratorUNet().to(device)
