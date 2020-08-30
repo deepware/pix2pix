@@ -29,8 +29,6 @@ def process(file, save_dir):
 def main():
 
 	files = glob.glob(sys.argv[1]+'/*')
-	if os.path.exists('result'):
-		shutil.rmtree('result')
 	os.mkdir('result')
 
 	for i, file in enumerate(files):
