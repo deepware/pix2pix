@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 from torchvision.utils import save_image
 from torch.utils.data import Dataset, DataLoader
 
-device = 'cuda:1'
+device = 'cuda:0'
 
 
 class ConvEnc(nn.Module):
