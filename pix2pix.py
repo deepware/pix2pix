@@ -199,7 +199,6 @@ def load_image(file):
 class dataset(Dataset):
 	def __init__(self, root, mode):
 		self.files = glob.glob('%s/%s/*'%(root, mode))
-		self.mode = mode
 
 	def __len__(self):
 		return len(self.files)
