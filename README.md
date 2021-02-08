@@ -5,7 +5,7 @@ Paper: https://arxiv.org/abs/1611.07004
 
 The aim of this implementation is easy experimenting.
 
-I followed the paper where possible and filled the blanks with the [official implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). However, I'm not certain that this code is compatible with the paper 100%. Fixes and suggestions are welcome.
+We followed the paper where possible and filled the blanks with the [official implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The code may not be compatible with the paper 100%. Fixes and suggestions are welcome.
 
 #### Usage
 
